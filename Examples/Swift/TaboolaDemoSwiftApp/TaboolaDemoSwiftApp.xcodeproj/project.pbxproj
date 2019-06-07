@@ -305,7 +305,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TaboolaDemoSwiftAppTests/Pods-TaboolaDemoSwiftAppTests-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-TaboolaDemoSwiftAppTests/Pods-TaboolaDemoSwiftAppTests-resources.sh",
 				"${PODS_ROOT}/TaboolaSDK/TaboolaSDK.framework/Versions/A/TaboolaResources/TaboolaVIewResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -314,7 +314,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaboolaDemoSwiftAppTests/Pods-TaboolaDemoSwiftAppTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaboolaDemoSwiftAppTests/Pods-TaboolaDemoSwiftAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E307B648AF855DD35C521CE3 /* [CP] Copy Pods Resources */ = {
@@ -323,7 +323,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TaboolaDemoSwiftApp/Pods-TaboolaDemoSwiftApp-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-TaboolaDemoSwiftApp/Pods-TaboolaDemoSwiftApp-resources.sh",
 				"${PODS_ROOT}/TaboolaSDK/TaboolaSDK.framework/Versions/A/TaboolaResources/TaboolaVIewResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -332,7 +332,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaboolaDemoSwiftApp/Pods-TaboolaDemoSwiftApp-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaboolaDemoSwiftApp/Pods-TaboolaDemoSwiftApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
