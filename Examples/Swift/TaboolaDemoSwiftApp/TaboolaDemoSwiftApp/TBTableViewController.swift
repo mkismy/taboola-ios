@@ -55,11 +55,11 @@ class TBTableViewController: UITableViewController {
             let taboolaCell = tableView.dequeueReusableCell(withIdentifier: "taboolaCell", for: indexPath) as! TaboolaCell
             taboolaCell.taboolaView.delegate = self
             taboolaCell.taboolaView.ownerViewController = self
-            taboolaCell.taboolaView.mode = "thumbnails-feed";
-            taboolaCell.taboolaView.publisher = "betterbytheminute-app";
+            taboolaCell.taboolaView.mode = "alternating-thumbnails-b";
+            taboolaCell.taboolaView.publisher = "sankeiplus-app-ios-sdkstandard";
             taboolaCell.taboolaView.pageType = "article";
-            taboolaCell.taboolaView.pageUrl = "http://www.example.com";
-            taboolaCell.taboolaView.placement = "feed-sample-app";
+            taboolaCell.taboolaView.pageUrl = "https://www.sanspo.com/geino/news/20190527/geo19052705000001-n1.html";
+            taboolaCell.taboolaView.placement = "Below Article Thumbnails";
             taboolaCell.taboolaView.targetType = "mix";
             taboolaCell.taboolaView.setInterceptScroll(true)
             taboolaCell.taboolaView.fetchContent()
